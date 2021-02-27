@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "type": "list",
+      "name": "dbType",
+      "message": "Select a database type",
+      "choices": ["mysql", "postgres", "cockroachdb", "mariadb", "sqlite", "better-sqlite3", "cordova", "nativescript", "oracle", "mssql", "mongodb", "sqljs", "react-native"],
+      "default": "mysql"
+    },
+    {
+      "type": "input",
+      "name": "dbHost",
+      "message": "Enter the hostname for database server",
+      "default": "127.0.0.1"
+    },
+    {
+      "type": "input",
+      "name": "dbPort",
+      "message": "Enter the port for database server",
+      "default": "3306"
+    },
+    {
+      "type": "input",
+      "name": "dbUsername",
+      "message": "Enter the username for database server",
+      "default": "root"
+    },
+    {
+      "type": "input",
+      "name": "dbPassword",
+      "message": "Enter the password for database server",
+      "default": "root"
+    },
+    {
+      "type": "input",
+      "name": "dbName",
+      "message": "Enter the database name",
+      "default": "root"
+    }
+  ],
+  "files": {
+    "merge": [
+      "src/app.*.ts",
+      ".apprc.ts",
+      "package.json"
+    ]
+  }
+}
