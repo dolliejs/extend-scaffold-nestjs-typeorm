@@ -1,9 +1,8 @@
 import { Module } from '@nestjs/common';
-import { getMetadataArgsStorage } from 'typeorm';
-import { TypeOrmModule, TypeOrmModuleOptions } from '@nestjs/typeorm';
-
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { getMetadataArgsStorage } from 'typeorm';
+import { TypeOrmModule, TypeOrmModuleOptions } from '@nestjs/typeorm';
 
 // @ts-ignore
 import apprc from '../.apprc';
