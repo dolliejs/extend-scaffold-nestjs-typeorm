@@ -26,7 +26,7 @@
       "default": "root"
     },
     {
-      "type": "input",
+      "type": "password",
       "name": "dbPassword",
       "message": "Enter the password for database server",
       "default": "root"
