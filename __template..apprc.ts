@@ -3,7 +3,7 @@ export default {
   db: {
     type: '<%= dbType %>',
     host: '<%= dbHost %>',
-    port: parseInt('<%= dbPort %>', 10),
+    port: <%= dbPort %>,
     username: '<%= dbUsername %>',
     password: '<%= dbPassword %>',
     database: '<%= dbName %>',
